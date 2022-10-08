@@ -2,4 +2,8 @@
 let customerNames = [];
 customerNames.push('Sam Smith');
 customerNames.push('Tommy Guns');
-console.log(customerNames[1]);
+
+for (let i = 0; i < customerNames.length; i++) {
+    console.log(customerNames[i]);
+}
+//console.log(customerNames[1]);
