@@ -30,3 +30,18 @@ console.log(evens);
 let removedElement = names.splice(1, 3);
 console.log(removedElement);
 // very powerfull 
+//BELOW REMOVES AN ITEM FROM THE ARRAY IN THE 2ND SPOT. splice()
+let studentList = ["Allen", "Jessica", "Eddie", "Sarah"]
+//write your code here
+
+studentList.splice(2,1);
+
+
+
+// do not change
+// for testing purposes
+function checkArray(array){
+    return array.sort()
+}
+
+console.log(checkArray(studentList));

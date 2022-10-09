@@ -22,5 +22,17 @@ function creatFullName(firstName, lastName) {
 let fullName = creatFullName("Geordan", "Daugherty");
 console.log("Welcome " + fullName);
 
+let a = 4;
+let b = 7;
+//write your code below
+function sumOfTwo(a, b){
+    return a + b;
+}
+
+
+
+//do not change. Used for Testing purposes
+console.log(sumOfTwo(a))
+
 
 
