@@ -45,3 +45,41 @@ function checkArray(array){
 }
 
 console.log(checkArray(studentList));
+
+
+
+
+// WEEK THREE OPEN CLASS   Array Fun: Using the given function, gradList, add the following names to the passed array: "Mary", "Steven", "Eddie". Then, sort the remaining students from Z-A, and return the modified array.
+var fs = require("fs");
+var grads = fs.readFileSync(process.stdin.fd, "utf-8").trim().split("\n");
+
+function gradList(graduates){
+    //write your code here
+    graduates.push("Mary", "Steven", "Eddie");
+    graduates.sort();
+    graduates.reverse();
+    return graduates;
+    
+    }
+   
+    
+
+
+console.log(gradList(grads));
+
+
+//solution  returns alphebeticly reversed.
+
+var fs = require("fs");
+var grads = fs.readFileSync(process.stdin.fd, "utf-8").trim().split("\n");
+
+function gradList(graduates){
+    //write your code here
+    graduates.push("Mary", "Steven", "Eddie");
+    graduates.sort();
+    let reverseGrads = graduates.reverse();
+    return reverseGrads;
+}
+ 
+
+console.log(gradList(grads));
