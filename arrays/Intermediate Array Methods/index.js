@@ -83,3 +83,43 @@ function gradList(graduates){
  
 
 console.log(gradList(grads));
+
+
+
+/// for each used to call arguments from an unknown array.
+
+//my way
+
+var fs = require("fs");
+var input = fs.readFileSync(process.stdin.fd, "utf-8").trim().split("\n");
+
+
+//write your code here
+function printArray(){
+    input.forEach(element => console.log(element));
+}
+
+
+
+// do not change
+// for testing purposes
+printArray(input);
+
+
+// instructors way.....
+
+var fs = require("fs");
+var input = fs.readFileSync(process.stdin.fd, "utf-8").trim().split("\n");
+ 
+//write your code here
+
+function printArray(array){
+    for(let i=0; i < array.length; i++){
+        console.log(array[i])
+    }
+}
+
+
+// do not change
+// for testing purposes
+printArray(input);
