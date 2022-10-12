@@ -12,3 +12,40 @@ for (name of customerNames) {
     console.log(name);
 }
 //^^^ alternitive cleaner then the length loop
+
+
+/*
+
+
+.reduce(
+    (previousValue, currentValue) => previousValue + currentValue,
+    .reduce(
+        (previousValue, currentValue) => previousValue + currentValue,
+        .reduce(
+            (previousValue, currentValue) => previousValue + currentValue,
+
+.reduce(
+    (previousValue, currentValue) => previousValue + currentValue,
+    .reduce(
+        (previousValue, currentValue) => previousValue + currentValue,
+        .reduce(
+            (previousValue, currentValue) => previousValue + currentValue,
+            .reduce(
+                (previousValue, currentValue) => previousValue + currentValue,
+
+                .reduce(
+                    (previousValue, currentValue) => previousValue + currentValue,
+                    .reduce(
+                        (previousValue, currentValue) => previousValue + currentValue,
+                        .reduce(
+                            (previousValue, currentValue) => previousValue + currentValue,
+                            .reduce(
+                                (previousValue, currentValue) => previousValue + currentValue,
+                                .reduce(
+                                    (previousValue, currentValue) => previousValue + currentValue,
+                                    .reduce(
+                                        (previousValue, currentValue) => previousValue + currentValue,
+                                        .reduce(
+                                            (previousValue, currentValue) => previousValue + currentValue,
+                                            .reduce(
+                                                (previousValue, currentValue) => previousValue + currentValue,
